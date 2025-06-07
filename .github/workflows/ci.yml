@@ -1,0 +1,26 @@
+permissions:
+  contents: read # required to checkout the code from the repo
+
+name: CI Pipeline
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout 🛎
+        uses: actions/checkout@v4
+
+      - name: Install marmite 🫙
+        run: cargo install --git https://github.com/rochacbruno/marmite --branch main
+
+      - name: Build site 🏗️
+        run: marmite . site --debug
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          path: "site"
