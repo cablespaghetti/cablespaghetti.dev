@@ -11,7 +11,6 @@ archives_title: Archive
 archives_content_title: Posts from '$year'
 streams_title: Streams
 streams_content_title: ''
-default_author: ''
 authors_title: Authors
 enable_search: true
 enable_related_content: false
@@ -22,7 +21,7 @@ templates_path: templates
 static_path: static
 media_path: ../media
 card_image: '../media/wires-3702104_1280.jpg'
-banner_image: '../media/wires-3702104_1280.jpg'
+#banner_image: '../media/wires-3702104_1280.jpg'
 logo_image: '../media/avatar.jpg'
 default_date_format: '%b %e, %Y'
 menu:
@@ -30,6 +29,16 @@ menu:
   - archive.html
 extra:
   colorscheme: gruvbox
-authors: {}
+  fediverse_verification: https://social.running.cafe/@sam
+default_author: cablespaghetti
+authors:
+  cablespaghetti:
+    name: Sam Weston
+    avatar: '../media/avatar.jpg'
+    bio: Professional Kubernetes, Linux and Open Source nerd. Father of two, husband and dog owner. Opinions are my own and very much subject to change. He/Him.
+    links:
+      - ["Fediverse", "https://social.running.cafe/@sam"]
+      - ["Github", "https://github.com/cablespaghetti"]
+      - ["Linkedin", "https://www.linkedin.com/in/sam-weston-66100334"]
 toc: true
 json_feed: false
