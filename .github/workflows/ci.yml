@@ -18,7 +18,7 @@ jobs:
         run: cargo install marmite
 
       - name: Build site 🏗️
-        run: marmite . site --debug
+        run: marmite . output -v
 
       - name: Install Backblaze B2 CLI
         run: |
