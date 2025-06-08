@@ -15,7 +15,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Install marmite 🫙
-        run: cargo binstall marmite
+        run: cargo install marmite
 
       - name: Build site 🏗️
         run: marmite . site --debug
