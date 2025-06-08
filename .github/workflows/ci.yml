@@ -20,7 +20,15 @@ jobs:
       - name: Build site 🏗️
         run: marmite . site --debug
 
-      - name: Upload artifact
-        uses: actions/upload-artifact@v4
-        with:
-          path: "site"
+      - name: Install Backblaze B2 CLI
+        run: |
+          curl -OL https://github.com/Backblaze/B2_Command_Line_Tool/releases/latest/download/b2-linux
+          chmod +x b2-linux
+
+      - name: Upload site
+        env: # Or as an environment variable
+          B2_APPLICATION_KEY_ID: ${{ secrets.B2_APPLICATION_KEY_ID }}
+          B2_APPLICATION_KEY: ${{ secrets.B2_APPLICATION_KEY }}
+        run: |
+          tar cvzf output.tar.gz output/
+          b2 file upload cablespaghetti-website output.tar.gz site-$(date --iso-8601=seconds).tar.gz
