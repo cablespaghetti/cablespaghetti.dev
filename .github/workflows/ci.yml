@@ -20,7 +20,7 @@ jobs:
           tar xvf marmite*.tar.gz
 
       - name: Build site 🏗️
-        run: marmite . output -v
+        run: ./marmite . output -v
 
       - name: Install Backblaze B2 CLI
         run: |
