@@ -15,7 +15,9 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Install marmite 🫙
-        run: cargo install marmite
+        run: |
+          curl -OL https://github.com/rochacbruno/marmite/releases/download/0.2.5/marmite-0.2.5-x86_64-unknown-linux-gnu.tar.gz
+          tar xvf marmite*.tar.gz
 
       - name: Build site 🏗️
         run: marmite . output -v
@@ -31,4 +33,5 @@ jobs:
           B2_APPLICATION_KEY: ${{ secrets.B2_APPLICATION_KEY }}
         run: |
           tar cvzf output.tar.gz output/
-          b2 file upload cablespaghetti-website output.tar.gz site-$(date --iso-8601=seconds).tar.gz
+          ./b2-linux file upload cablespaghetti-website output.tar.gz site-$(date --iso-8601=seconds).tar.gz
+          ./b2-linux file upload cablespaghetti-website output.tar.gz site-latest.tar.gz
