@@ -8,7 +8,7 @@
     </a>
   </li>
   <li>
-    <a href="https://social.running.cafe/@sam">
+    <a href="https://cablespaghetti.dev/fedi/sam">
       <span class="fa-stack fa-lg">
         <i class="fa fa-circle fa-stack-2x"></i>
         <i class="fa-brands fa-mastodon fa-stack-1x fa-inverse"></i>

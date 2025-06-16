@@ -29,7 +29,7 @@ menu:
   - archive.html
 extra:
   colorscheme: gruvbox
-  fediverse_verification: https://social.running.cafe/@sam
+  fediverse_verification: https://cablespaghetti.dev/fedi/sam
 default_author: cablespaghetti
 authors:
   cablespaghetti:
@@ -37,7 +37,7 @@ authors:
     avatar: '../media/avatar.jpg'
     bio: Professional Kubernetes, Linux and Open Source nerd. Father of two, husband and dog owner. Opinions are my own and very much subject to change. He/Him.
     links:
-      - ["Fediverse", "https://social.running.cafe/@sam"]
+      - ["Fediverse", "https://cablespaghetti.dev/fedi/sam"]
       - ["Github", "https://github.com/cablespaghetti"]
       - ["Linkedin", "https://www.linkedin.com/in/sam-weston-66100334"]
 toc: true
