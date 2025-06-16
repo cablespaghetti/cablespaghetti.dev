@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Hosting a static site on an original Raspberry Pi"
-description: "Hosting a static site (this blog) on an original 256MB Raspberry Pi using Alpine Linux disless mode."
+description: "Hosting a static site (this blog) on an original 256MB Raspberry Pi using Alpine Linux diskless mode."
 date: 2025-06-15 22:00
 tags: hardware raspberrypi alpinelinux linux
 banner_image: media/pi-with-hdd.jpg
