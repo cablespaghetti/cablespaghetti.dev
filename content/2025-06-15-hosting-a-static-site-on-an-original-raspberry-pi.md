@@ -31,7 +31,8 @@ The most important change here is reducing the amount of memory allocated to the
 # do not modify this file as it will be overwritten on upgrade.  
 # create and/or modify usercfg.txt instead.  
 # https://www.raspberrypi.com/documentation/computers/config_txt.html  
-<br/>kernel=boot/vmlinuz-rpi  
+
+kernel=boot/vmlinuz-rpi  
 initramfs boot/initramfs-rpi  
 arm_64bit=0  
 gpu_mem=16  
