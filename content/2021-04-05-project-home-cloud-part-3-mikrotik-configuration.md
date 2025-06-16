@@ -4,7 +4,7 @@ title:  "Project Home Cloud Part 3: MikroTik hAP ac² Initial Configuration with
 description: "Setting up MikroTik hAP ac² with the basic functionality to replace my ISP provided router including working IPv6."
 date: 2021-04-05 09:30
 tags: networking hardware mikrotik life
-image: assets/thumbs/homecloudpart1-mikrotik.webp
+banner_image: media/thumbs/homecloudpart1-mikrotik.webp
 ---
 
 In the last couple of posts I went over my plans to overhaul my home network and separate off the machines I have hosting web-facing services from the private network used by my family. In this post I'll outline the configuration of my new MikroTik router, as someone with a bit of networking knowledge but no previous experience with the brand. The aim here is to seamlessly replace my ISP provided router without adding any additional functionality at this point; this includes IPv6 which was the only part I found particularly difficult to get working.

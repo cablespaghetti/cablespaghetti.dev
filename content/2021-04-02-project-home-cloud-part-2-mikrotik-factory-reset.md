@@ -4,7 +4,7 @@ title:  "Project Home Cloud Part 2: MikroTik hAP ac² Factory Reset"
 description: "Figuring out how to factory reset my used MikroTik hAP ac²"
 date: 2021-04-02 22:00
 tags: networking hardware mikrotik life
-image: assets/thumbs/homecloudpart1-mikrotik.webp
+banner_image: media/thumbs/homecloudpart1-mikrotik.webp
 ---
 
 If you read my [previous post]({% link _posts/2021-03-28-project-home-cloud-part-1-the-plan.markdown %}), you'll know that I'm giving my home network a bit of an overhaul brought on by the installation of a new "full fibre" Internet connection. The plan is to set things up so I can separate the machines I have hosting web-facing services from the rest of my LAN. I'm mostly doing this for security reasons but it should also give me a bit more freedom to tinker with (and break...) my "lab" network without upsetting my wife and kids.
