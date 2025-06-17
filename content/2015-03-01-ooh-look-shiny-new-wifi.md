@@ -3,7 +3,7 @@ layout: post
 title:  "Ooh look! Shiny new Wi-Fi!"
 description: "The access points powering the guest and internal Wi-Fi networks at work were getting a bit old and senile, so around 6 months ago we decided to get some money to upgrade. At the time we only thought only one needed replacing, so we went out and bought a Cisco WAP321 to replace it; having prior knowledge of their reputation and not wanting to be burdened..."
 date:   2015-03-01 18:35
-tags: hardware networking
+tags: hardware, networking
 redirect_from:
   - /2015/03/01/ooh-look-shiny-new-wifi.html
 ---

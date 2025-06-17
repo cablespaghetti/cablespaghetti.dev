@@ -3,7 +3,7 @@ layout: post
 title:  "Revenge of the flaky routers"
 description: "There is an DSL router at work which I'm sure is sentient. It's 100% reliable for months on end and then once in a while, always when I'm out of the office, it decides to crash and drop the Internet connection. The only solution is of course to turn it off and on again; which means visiting the office at the most inconvenient times possible."
 date:   2015-02-23 19:03
-tags: scripts linux networking
+tags: scripts, linux, networking
 redirect_from:
   - /2015/02/23/revenge-of-the-flaky-routers.html
 ---

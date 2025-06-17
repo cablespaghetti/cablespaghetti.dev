@@ -3,7 +3,7 @@ layout: post
 title:  "EKS Managed Node Groups, the good, the bad and the config"
 description: "The pros and cons, and how to migrate to Amazon EKS Managed Node Groups."
 date: 2021-03-20 17:00
-tags: kubernetes aws eks
+tags: kubernetes, aws, eks
 ---
 
 Amazon EKS launched in 2018 to the relief of many who had been managing their own Kubernetes clusters on AWS. However it wasn't as fully featured as some had hoped out of the gate. One of the big improvements Amazon made was to release [Managed Node Groups](https://aws.amazon.com/blogs/containers/eks-managed-node-groups/) in 2019; this removed the need for people to manage their own Auto Scaling Groups and tasks like replacing nodes to upgrade to a new AMI version no longer required a long drawn out manual process or [home grown automation](https://github.com/hellofresh/eks-rolling-update).

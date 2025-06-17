@@ -3,7 +3,7 @@ layout: post
 title:  "Project Home Cloud Part 1: The Plan"
 description: "The story of my love affair with old crusty hardware and the beginnings of my plan to turn my shed into my own personal cloud provider."
 date:   2021-03-28 12:00
-tags: linux networking hardware kubernetes life
+tags: linux, networking, hardware, kubernetes, life
 banner_image: media/thumbs/homecloudpart1-shed1.webp
 ---
 

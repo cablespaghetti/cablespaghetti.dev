@@ -3,7 +3,7 @@ layout: post
 title:  "Using AWS Spot Instances in your production EKS cluster"
 description: "How to use AWS Spot instances in your production EKS cluster without causing an outage."
 date: 2021-03-05 17:00
-tags: kubernetes aws spot
+tags: kubernetes, aws, spot
 ---
 
 At work we have a number of fairly large Kubernetes clusters on Amazon EKS; some with 50 or 60 "xlarge" nodes. This amount of compute on AWS can cost a fortune every month, so of course we wanted to do what we could to reduce this.

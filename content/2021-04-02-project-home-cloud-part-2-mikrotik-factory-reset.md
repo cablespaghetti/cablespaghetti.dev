@@ -3,7 +3,7 @@ layout: post
 title:  "Project Home Cloud Part 2: MikroTik hAP ac² Factory Reset"
 description: "Figuring out how to factory reset my used MikroTik hAP ac²"
 date: 2021-04-02 22:00
-tags: networking hardware mikrotik life
+tags: networking, hardware, mikrotik, life
 banner_image: media/thumbs/homecloudpart1-mikrotik.webp
 ---
 

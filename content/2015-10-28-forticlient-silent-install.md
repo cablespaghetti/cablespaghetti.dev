@@ -3,7 +3,7 @@ layout: post
 title:  "FortiClient SSL VPN Silent Install with Group Policy"
 description: "I've never been able to find a way to silently install the Fortinet SSLVPN client with Group Policy or otherwise. Today I had a bit of a break through."
 date:   2015-10-28 21:00
-tags: scripts networking windows
+tags: scripts, networking, windows
 redirect_from:
   - /2015/10/28/forticlient-silent-install.html
 ---

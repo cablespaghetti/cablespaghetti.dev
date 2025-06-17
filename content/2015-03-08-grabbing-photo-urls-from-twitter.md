@@ -3,7 +3,7 @@ layout: post
 title:  "Grabbing Photo URLs from Twitter"
 description: "Yesterday I helped out at #CodeOff2015, an event that my employer Snowflake Software runs every year at the Electronics and Computer Science department at the University of Southampton. We give students the day to write software to solve a problem that we set, they get judged at the end of the day and then the winner gets a paid summer internship with our development team. A great way to find talented developers, I'm sure you'll agree!"
 date:   2015-03-08 18:00
-tags: scripts python
+tags: scripts, python
 redirect_from:
   - /2015/03/08/grabbing-photo-urls-from-twitter.html
 ---

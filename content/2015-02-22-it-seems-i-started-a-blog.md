@@ -3,7 +3,7 @@ layout: post
 title:  "It seems I started a blog"
 description: "I've had websites of my own in the past and they always start off great but then get left and eventually taken offline out of embarrassment. I suppose this is due to lack of time, inspiration, or just plain laziness."
 date:   2015-02-22 20:13
-tags: life jekyll
+tags: life, jekyll
 redirect_from:
   - /2015/02/22/it-seems-i-started-a-blog.html
 ---

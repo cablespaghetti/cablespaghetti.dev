@@ -3,7 +3,7 @@ layout: post
 title:  "Getting up and running with multi-arch Kubernetes clusters"
 description: "How to effectively add arm64 nodes into an existing amd64 Kubernetes cluster without making problems for yourself."
 date: 2021-02-20 17:00
-tags: kubernetes arm aws
+tags: kubernetes, arm, aws
 redirect_from:
   - /2021/02/20/managing-multi-arch-kubernetes-clusters.html
 ---

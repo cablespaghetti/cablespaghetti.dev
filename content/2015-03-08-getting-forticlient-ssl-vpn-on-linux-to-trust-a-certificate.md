@@ -3,7 +3,7 @@ layout: post
 title:  "Getting FortiClient SSL VPN on Linux to trust a certificate"
 description: "I'm a Linux guy; I find it to be the most intuitive operating system for most tasks, even on a Laptop. At home I use Arch Linux and at work I've recently moved from the Windows 7 workstation I've been using for the last 10 months to Ubuntu GNOME on an old laptop that was feeling unwanted."
 date:   2015-03-08 16:34
-tags: linux networking
+tags: linux, networking
 redirect_from:
   - /2015/03/08/getting-forticlient-ssl-vpn-on-linux-to-trust-a-certificate.html
 ---
