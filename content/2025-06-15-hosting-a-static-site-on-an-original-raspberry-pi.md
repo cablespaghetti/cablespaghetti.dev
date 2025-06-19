@@ -91,7 +91,11 @@ chown lighttpd:lighttpd /var/lib/lighttpd
 ```
 
 
-I am still struggling with lighttpd crashing out when it detects the clock jumping forward multiple years on boot (hardware clockless SBC owner problems), so my current solution is to ignore the problem and run `rc-service lighttpd restart` by hand every time I reboot.
+~~I am still struggling with lighttpd crashing out when it detects the clock jumping forward multiple years on boot (hardware clockless SBC owner problems), so my current solution is to ignore the problem and run `rc-service lighttpd restart` by hand every time I reboot.~~ [Natanael Copa shared](#bonus-bit-service-ordering) how you can tell lighttpd to start after ntpd:
+
+```
+echo rc_after=ntpd >> /etc/conf.d/lighttpd
+```
 
 ## Benchmark time!
 
@@ -118,3 +122,11 @@ If you got this far, well done; you have endured my ramblings for a significant 
 Sorry if you are following along with this post and find errors or omissions. The blog source [is on GitHub](https://github.com/cablespaghetti/cablespaghetti.dev) for you to open an Issue or Pull Request with any corrections.
 
 You can also complain to me on the Fediverse/Mastodon at [@sam@cablespaghetti.dev](https://cablespaghetti.dev/fedi/sam). The [snac](https://codeberg.org/grunfink/snac2) instance hosting this profile also runs on the very same Pi in this article. Watch this space for a blog on that journey.
+
+## Bonus Bit: Service Ordering
+
+[Natanael Copa](https://fosstodon.org/users/ncopa) founder of Alpine Linux replied to my fediverse post and [shared these nuggets of wisdom](https://fosstodon.org/@ncopa/114699057920797522).
+
+![Reply from Natanael Copa sharing information about how you can automate the Alpine Linux installation process.](/media/natanaelcopa1.png)
+
+![Reply from Natanael Copa sharing how to grab an SSH key from GitHub during the installation process and how to get lighttpd to start after ntpd.](/media/natanaelcopa2.png)
