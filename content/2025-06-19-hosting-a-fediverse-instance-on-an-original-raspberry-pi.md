@@ -134,6 +134,8 @@ $HTTP["url"] =~ "^/(fedi|.well-known/(webfinger|nodeinfo|host-meta)$|api|oauth|s
 }
 ```
 
+**Now don't forget to `lbu commit -d`!**
+
 ## That's all folks
 
 In theory you can now go to https://example.com/fedi and login to your new shiny snac instance. I have about 700 followers and it isn't exactly fast (I mean what do you expect) but it _works_ and is currently doing the job I need it to do.
