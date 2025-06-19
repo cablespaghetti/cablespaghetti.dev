@@ -142,7 +142,7 @@ In theory you can now go to https://example.com/fedi and login to your new shiny
 
 If you're mad enough to follow this guide a something doesn't work, the blog source [is on GitHub](https://github.com/cablespaghetti/cablespaghetti.dev) for you to open an Issue or Pull Request with any corrections.
 
-You can also complain to me on the Fediverse/Mastodon at [@sam@cablespaghetti.dev](https://cablespaghetti.dev/fedi/sam). The [snac](https://codeberg.org/grunfink/snac2) instance hosting this profile also runs on the very same Pi in this article. Watch this space for a blog on that journey.
+You can also complain to me on the Fediverse/Mastodon at [@sam@cablespaghetti.dev](https://cablespaghetti.dev/fedi/sam) which will come to this very Raspberry Pi. If I am slow to respond you know why!
  
 ## Bonus Bit: Backups
 
