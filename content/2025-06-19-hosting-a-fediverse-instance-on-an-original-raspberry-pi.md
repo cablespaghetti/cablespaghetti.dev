@@ -74,7 +74,7 @@ First of all in `/etc/lighttpd/lighttpd.conf` I uncommented `mod_proxy` and `mod
 
 ### Getting a TLS Certificate
 
-I've previously used [certbot](https://certbot.eff.org/) for getting TLS certificates (when not using Kubernetes of course). However it is a Python application and I immediately ran out of ramdisk when I tried to install it. I then went searching on [pkgs.alpinelinux.org](https://pkgs.alpinelinux.org/) and discovered [acme.sh](https://github.com/acmesh-official/acme.sh). You know the drill by now `apk install acme.sh`.
+I've previously used [certbot](https://certbot.eff.org/) for getting TLS certificates (when not using Kubernetes of course). However it is a Python application and I immediately ran out of ramdisk when I tried to install it. I then went searching on [pkgs.alpinelinux.org](https://pkgs.alpinelinux.org/) and discovered [acme.sh](https://github.com/acmesh-official/acme.sh). You know the drill by now `apk acme.sh`.
 
 I'm assuming that you read my previous post and you have a DNS record for your domain pointing at your Raspberry Pi and port 80 is open to the internet...if not...do that...
 
