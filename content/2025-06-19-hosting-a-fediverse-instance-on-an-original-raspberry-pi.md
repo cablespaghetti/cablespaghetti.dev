@@ -33,6 +33,8 @@ Yes, well spotted. Lightweight or not, I don't want to store all my snac data on
 
 ![Raspberry Pi with a hard disk connected via USB and a powered USB hub](/media/pi-with-hdd.jpg)
 
+*Note: I have since switched to btrfs as it seems to have lower memory usage. Snapshots are also a bonus for backups.*
+
 When connected it showed up in `dmesg` as `/dev/sda`, so I ran `apk add xfsprogs` to get the XFS utilities, used `fdisk /dev/sda` to make a new MBR partition table and single "Linux" (the default) type partition on it and `mkfs.xfs /dev/sda1` to format the partition.
 
 Amazingly considering the age of the drive and the amount of time it has been sat in my pile of mostly dead hard drives, this all worked properly and I could `mount -t xfs /dev/sda1 /var/lib/snac`. I then added this line to `/etc/fstab` so it would mount on boot:
